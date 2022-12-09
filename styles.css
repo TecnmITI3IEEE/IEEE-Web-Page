@@ -1,0 +1,33 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body
+{
+    background-color: blueviolet;
+}
+
+.header 
+{
+    height: 75px;
+    width: 100%;
+    background-color: black;
+}
+
+
+.content
+{
+    height: 550px;
+    width: 100%;
+    background-color: blue;
+}
+.footer
+{
+    height: 75px;
+    width: 100%;
+    background-color: red;
+}
