@@ -1,0 +1,144 @@
+/**/
+body{
+  padding: 0px;
+  margin: 0px;
+
+}
+/**/
+/**/
+
+.logos{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.637);
+  
+   
+}
+.nav{
+  border-top: 3px solid rgb(9, 65, 249);
+    background-color: white;
+    border-bottom: 3px solid rgb(9, 65, 249);
+    text-align: right;
+}
+.header{
+  
+  border-bottom: 5px solid rgb(9, 65, 249);
+   background-image: url(images/portada4.jpg);
+   
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:600px;
+}
+.titulo{
+  color: rgba(240, 250, 250, 0.82);
+  margin-top: 50px;
+  text-align: center;
+}
+.nosotros{
+ 
+  font-size: 30px;
+  margin-top: 150px;
+  text-align: center;
+
+  
+}
+.conocenos{
+  padding: 40px;
+  margin: 20px;
+  align-items: center;
+  border-bottom: 2px solid rgb(9, 65, 249);
+  
+  display: flex;
+}
+.des_conocenos{
+  width: 600px;
+ background-color: rgb(43, 107, 226);
+  
+
+}
+.img_conocenos{
+  box-shadow: 4px 4px 10px black;
+  border-radius: 15px;
+ border:2px solid rgb(9, 65, 249);
+  width: 300px;
+  height: 418px;
+}
+.desc2{
+  padding: 30px;
+  text-align: center;
+}
+/**/
+
+/**/
+.img_organi{
+  box-shadow: 4px 4px 10px black;
+  border: 2px  solid rgb(9, 65, 249);
+  border-radius: 100%;
+  width: 330px;
+  height: 300px;
+}
+.btnConoce{
+  color:rgb(178, 233, 247);
+  text-decoration: none;
+  box-shadow: 1px 1px 30px white;
+  padding: 10px;
+  border-radius: 3px;
+  border:2px solid white;
+
+}
+.cont_organi{
+  padding: 30px;
+}
+.equipo{
+  display: flex;
+}
+.img_galery{
+  width: 300px;
+  height: 250px;
+}
+/**/
+b{
+  font-size: 30px;
+}
+a.a_nav{
+    
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(9, 65, 249);
+    padding:20px;
+    
+}   
+img.icon-logs{
+
+    width:100px;
+    height: 50px;
+    margin: 0px 40px;
+  }
+
+  
+/**/
+.btnConoce:hover{
+  box-shadow: 1px 1px 30px rgb(104, 233, 243);
+  background-color: rgba(104, 233, 243, 0.671);
+  color: rgb(242, 254, 255);
+  border:2px solid rgb(239, 249, 249);
+
+}
+a.a_nav:hover{
+    color: rgb(9, 217, 249);
+}
+.titulo:hover{
+  text-shadow: 2px 2px 2px black;
+  color: white;
+  
+}
+.img_galery:hover{
+  background-color: rgba(0, 0, 0, 0.427);
+}
+
+/**/
+/**/
+
+/**/
+/**/
+/**/
