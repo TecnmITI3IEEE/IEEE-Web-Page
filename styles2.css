@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Cinzel:wght@500&display=swap');
-
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,900&display=swap');
+*
+{
   padding: 0px;
   margin: 0px;
   font-family: 'Roboto', sans-serif;
@@ -30,11 +30,28 @@
   height: 600px;
 }
 
+.container-banner{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  margin: auto;
 
-
+}
+.banner{
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+.img-banner{
+  width: 100%;
+  height: 100%;
+}
 .titulo {
-  color: rgba(0, 0, 0, 0.82);
-  margin-top: 50px;
+
+  color: rgb(255, 255, 255);
+  margin-top:80px;
   text-align: center;
 }
 
@@ -123,8 +140,8 @@ a.a_nav {
 .btnConoce:hover {
   box-shadow: 1px 1px 30px rgb(104, 233, 243);
   background-color: rgba(104, 233, 243, 0.671);
-  color: rgb(242, 254, 255);
-  border: 2px solid rgb(239, 249, 249);
+  color: rgb(12, 12, 12);
+  border: 2px solid rgb(18, 18, 18);
 
 }
 
@@ -147,6 +164,7 @@ a.a_nav:hover {
 
 /**/
 /**/
+<<<<<<< HEAD
 /**/
 
 
@@ -221,3 +239,6 @@ a.a_nav:hover {
   height: 25px;
   margin: 0 10px;
 }
+=======
+/**/
+>>>>>>> afff84d5934143bcc3bb78da09b33d0b2ad434b9
