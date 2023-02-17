@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,900&display=swap');
-*
-{
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Cinzel:wght@500&display=swap');
+
+*{
   padding: 0px;
   margin: 0px;
   font-family: 'Roboto', sans-serif;
@@ -157,3 +157,40 @@ a.a_nav:hover {
 /**/
 /**/
 /**/
+
+
+
+
+/*
+
+  EQUIPO STYLES
+
+*/
+
+.equipo-container {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+.equipo-title h3 {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 2rem;
+  color: gray;
+}
+.equipo-target-img {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.equipo-target-img img {
+  width: 150px;
+}
+.equipo-target {
+  width: 250px;
+  height: 350px;
+  border: 1px solid #ccc;
+}
