@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Cinzel:wght@500&display=swap');
-
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,900&display=swap');
+*
+{
   padding: 0px;
   margin: 0px;
   font-family: 'Roboto', sans-serif;
@@ -30,8 +30,24 @@
   height: 600px;
 }
 
+.container-banner{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  margin: auto;
 
-
+}
+.banner{
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+.img-banner{
+  width: 100%;
+  height: 100%;
+}
 .titulo {
   color: rgba(0, 0, 0, 0.82);
   margin-top: 50px;
@@ -123,8 +139,8 @@ a.a_nav {
 .btnConoce:hover {
   box-shadow: 1px 1px 30px rgb(104, 233, 243);
   background-color: rgba(104, 233, 243, 0.671);
-  color: rgb(242, 254, 255);
-  border: 2px solid rgb(239, 249, 249);
+  color: rgb(12, 12, 12);
+  border: 2px solid rgb(18, 18, 18);
 
 }
 
@@ -148,40 +164,3 @@ a.a_nav:hover {
 /**/
 /**/
 /**/
-
-
-
-
-/*
-
-  EQUIPO STYLES
-
-*/
-
-.equipo-container {
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1200px;
-  padding: 0 20px;
-}
-.equipo-title h3 {
-  text-align: center;
-  font-family: 'Cinzel', serif;
-  font-size: 2rem;
-  color: gray;
-}
-.equipo-target-img {
-  display: flex;
-  align-items: center;
-  justify-content:center;
-}
-.equipo-target-img img {
-  width: 150px;
-}
-.equipo-target {
-  width: 250px;
-  height: 350px;
-  border: 1px solid #ccc;
-}
