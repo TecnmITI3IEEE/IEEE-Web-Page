@@ -7,20 +7,32 @@
 }
 
 .logos {
-  height: 75px;
+  height: 50px;
   background-color: #fffe;
   display: flex;
   justify-content: space-around;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #00629B;
+  margin-bottom: 100px;
 }
 
 .nav {
-  border-top: 3px solid #00629B;
+  /* border-top: 3px solid #00629B; */
   background-color: white;
-  border-bottom: 3px solid #00629B;
+  /* border-bottom: 3px solid #00629B; */
   text-align: right;
   padding: 10px 0px;
+  display: flex;
+  justify-content: center;
 }
 
+.nav a {
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: gray;
+}
 .header {
   background-size: 100%;
   width: 100%;
@@ -54,7 +66,7 @@
 }
 
 .titulo {
-  margin-top: 80px;
+  margin-top: 20px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
