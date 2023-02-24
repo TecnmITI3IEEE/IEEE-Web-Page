@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,900&display=swap');
-*
-{
+
+* {
   padding: 0px;
   margin: 0px;
   font-family: 'Roboto', sans-serif;
@@ -22,15 +22,12 @@
 }
 
 .header {
-  border-bottom: 5px solid #00629B;
- 
   background-size: 100%;
- 
   width: 100%;
-  height: 600px;
+  margin-bottom: 100px;
 }
 
-.container-banner{
+.container-banner {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -39,136 +36,95 @@
   margin: auto;
 
 }
-.banner{
-  width: 100%;
+
+.banner {
+  position: relative;
+  width: 1300px;
+  margin: auto;
   height: 600px;
   position: relative;
+  margin-top: 50px;
 }
-.img-banner{
+
+
+.img-banner {
   width: 100%;
   height: 100%;
+  border-radius: 20px;
 }
-.titulo {
 
-  color: rgb(255, 255, 255);
-  margin-top:80px;
+.titulo {
+  margin-top: 80px;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
 }
 
 .nosotros {
-
-  font-size: 30px;
-  margin-top: 150px;
-  text-align: center;
+  animation: all 1000ms ease;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+.nosotros a {
+  animation: all 1000ms ease;
+  background: #fffe;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.nosotros a:hover {
+  background: #202020;
+  color: #fffe;
 }
 
-.conocenos {
-  padding: 40px;
-  margin: 20px;
-  align-items: center;
-  border-bottom: 2px solid rgb(0, 0, 0);
-  display: flex;
-}
 .btnConoce {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  box-shadow: 1px 1px 30px rgb(25, 25, 25);
+  /* box-shadow: 1px 1px 30px rgb(25, 25, 25); */
   padding: 10px;
   border-radius: 3px;
   border: 2px solid rgb(13, 13, 13);
 
 }
 
-.des_conocenos {
-  width: 600px;
-  background-color: rgb(43, 107, 226);
+
+/*
+
+  CONOCENOS SECTION STYLES
+
+*/
+.sub-title {
+  margin-bottom: 40px;
 }
 
-.img_conocenos {
-  box-shadow: 4px 4px 10px black;
-  border-radius: 15px;
-  border: 2px solid rgb(9, 65, 249);
-  width: 300px;
-  height: 418px;
+.conocenos {
+  width: 1200px;
+  margin-bottom: 100px;
+  margin: 0px auto;
 }
 
-.desc2 {
-  padding: 30px;
+.conocenos .conocenos-title {
   text-align: center;
-}
-
-/**/
-
-/**/
-.img_organi {
-  box-shadow: 4px 4px 10px black;
-  border: 2px solid rgb(9, 65, 249);
-  border-radius: 100%;
-  width: 330px;
-  height: 300px;
-}
-
-
-
-.cont_organi {
-  padding: 30px;
-}
-
-.equipo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: gray;
+} 
+.conocenos-content {
   display: flex;
 }
-
-.img_galery {
-  width: 300px;
-  height: 250px;
-}
-
-/**/
-b {
-  font-size: 30px;
-}
-
-a.a_nav {
-  transition: all 200ms ease;
-  font-size: 20px;
-  text-decoration: none;
-  color: #00629B;
+.conocenos-content-text {
   padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-/**/
-.btnConoce:hover {
-  box-shadow: 1px 1px 30px rgb(104, 233, 243);
-  background-color: rgba(104, 233, 243, 0.671);
-  color: rgb(12, 12, 12);
-  border: 2px solid rgb(18, 18, 18);
-
+.about-us-image-container {
+  
 }
-
-a.a_nav:hover {
-  color: rgb(9, 217, 249);
+.about-us-image {
+  width: 100%; 
+  height: 100%;
+  border-radius: 20px;
 }
-
-.titulo:hover {
-  text-shadow: 2px 2px 2px black;
-  color: rgb(26, 25, 25);
-
-}
-
-.img_galery:hover {
-  background-color: rgba(0, 0, 0, 0.427);
-}
-
-/**/
-/**/
-
-/**/
-/**/
-<<<<<<< HEAD
-/**/
-
-
-
 
 /*
 
@@ -183,47 +139,58 @@ a.a_nav:hover {
   width: 100%;
   max-width: 1200px;
   padding: 0 20px;
+  margin-top: 50px;
 }
+
 .equipo-targets-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .equipo-title h3 {
   text-align: center;
-  font-family: 'Cinzel', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 2rem;
   color: gray;
 }
+
 .equipo-target-img {
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
 }
+
 .equipo-target-img img {
   width: 150px;
   border-radius: 30px;
   padding: 10px 0px;
 }
+
 .equipo-target {
   width: 250px;
   height: 350px;
   /* border: 1px solid #ccc; */
   position: relative;
   margin: 20px 0px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;}
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
 .equipo-info {
   padding: 10px;
   font-size: 14px;
 }
+
 .equipo-info p {
   margin: 10px 0px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .equipo-info p:nth-child(2) {
   color: #202020;
   font-weight: 600;
 }
+
 .social-networks-container {
   display: flex;
   justify-content: center;
@@ -234,11 +201,9 @@ a.a_nav:hover {
   right: 0;
   margin: 0 auto;
 }
+
 .social-networks-container img {
   width: 25px;
   height: 25px;
   margin: 0 10px;
 }
-=======
-/**/
->>>>>>> afff84d5934143bcc3bb78da09b33d0b2ad434b9
